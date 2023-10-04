@@ -1,8 +1,5 @@
 let heroi = {nome: 'Joaquin',nivel:'', exp:9001}
 
-console.log(heroi.exp)
-console.log(heroi.nivel)
-
 switch(true) {
     case heroi.exp < 1001:
         heroi.nivel = 'Ferro';
@@ -37,7 +34,5 @@ switch(true) {
         console.log(heroi.nivel);
         break;
     }
-
-console.log(heroi.nivel)
 
 console.log(`O herói de nome ${heroi.nome}, está no nível de ${heroi.nivel}`)
